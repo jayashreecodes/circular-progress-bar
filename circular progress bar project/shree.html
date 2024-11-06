@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Cirucular Progress Bar</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <div class="outer">
+        <div class="inner">
+            <div id="number"> 0% </div>
+        </div>
+        <svg width="320px" height="320px">
+          <defs>
+             <lineargradient id="lineargradient">
+              <stop offset="0%" stop-color="#B53471"></stop>
+              <stop offset="50%" stop-color="#B33471"></stop>
+              <stop offset="100%" stop-color="#6F1E51"></stop>
+             </lineargradient>
+          </defs>
+          <circle cx="150" cy="150" r="130" stroke-linecap="round"/>
+        </svg>
+    </div>
+  </div>  
+  
+ 
+
+
+
+
+
+
+
+
+
+
+    <script src="script.js">
+    </script>
+</body>
+</html>
